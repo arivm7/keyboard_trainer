@@ -5,7 +5,7 @@ cd output || { echo "Не удалось прейти в папку [output]"; e
 
 pyinstaller -F \
 --clean \
---name kb_training_smile \
+--name kb_trainer_smile \
 ../main.py
 
 echo "Копирую ../books"
@@ -18,8 +18,8 @@ echo "Копирую ../img"
 cp -R ../img        dist/
 echo "Удаляем лишнее и не понятное"
 rm -R build
-rm kb_training_smile.spec
-mv dist kb_training_smile_lin
+rm kb_trainer_smile.spec
+mv dist kb_trainer_smile_lin
 echo "Ок"
 
 cd ..
