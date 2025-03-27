@@ -1,3 +1,15 @@
+_SRC
+_src
+_txt
+_doc
+__pycache__
+venv
+.idea
+*.kate-swp
+*.swp
+*.zip
+*.zip*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
