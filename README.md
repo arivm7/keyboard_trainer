@@ -12,6 +12,10 @@
 
 Файл конфигурации в json формате
 
+## Начать играть
+
+В папке [output](output/) находятся собранные бинарные файлы для lunux и windows.
+
 ##
 ## Скриншоты
 ##
@@ -21,5 +25,5 @@
 ##
 ![Screenshot_0030.png](img/screenshots/Screenshot_0030.png)
 ##
-![Screenshot_0040.png](img/screenshots/Screenshot_0050.png)
+![Screenshot_0040.png](img/screenshots/Screenshot_0040.png)
 ##
