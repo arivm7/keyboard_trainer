@@ -1,5 +1,5 @@
 #
-# CP: windows-1251
+# CP: windows-IBM866
 # EOL: CRLF
 #
 
@@ -7,25 +7,25 @@ cd output
 
 pyinstaller -F --clean --name kb_trainer_smile ../main.py
 
-echo " опирую ../conf.json"
+echo "КЃѓ®аго ../conf.json"
 copy ..\conf.json dist\conf.json
 
-echo " опирую ../img"
+echo "КЃѓ®аго ../img"
 xcopy /E ..\img dist\img\
 
-echo " опирую ../books"
+echo "КЃѓ®аго ../books"
 xcopy /E ..\books dist\books\
 
-echo " опирую ../saves"
+echo "КЃѓ®аго ../saves"
 xcopy /E ..\saves dist\saves\
 
-echo "”дал€ем не пон€тное и лишнее..."
+echo "У§†Ђп•ђ ≠• ѓЃ≠пв≠Ѓ• ® Ђ®и≠••..."
 del kb_trainer_smile.spec
 del /Q /S build
 rmdir /S /Q build
 ren dist kb_trainer_smile_win
 
-echo "ќк"
+echo "О™"
 
 cd ..
 
