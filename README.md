@@ -14,7 +14,7 @@
 
 ## Начать играть
 
-В папке [releases](releases/) находятся собранные бинарные файлы для linux и windows.
+В папке [releases](https://github.com/arivm7/keyboard_trainer/releases/) находятся собранные бинарные файлы для linux и windows.
 
 ##
 ## Скриншоты
